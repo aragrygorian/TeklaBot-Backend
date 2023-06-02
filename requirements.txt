@@ -4,3 +4,4 @@ langchain
 faiss-cpu
 pydantic
 typing
+python-dotenv
