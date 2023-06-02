@@ -2,6 +2,5 @@ fastapi
 uvicorn
 langchain
 faiss-cpu
-dotenv
 pydantic
 typing
