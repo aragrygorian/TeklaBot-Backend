@@ -5,3 +5,4 @@ faiss-cpu
 pydantic
 typing
 python-dotenv
+openai
