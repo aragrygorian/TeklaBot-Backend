@@ -16,6 +16,7 @@ from typing import List
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
+
 load_dotenv()
 
 # Initialize OpenAI
