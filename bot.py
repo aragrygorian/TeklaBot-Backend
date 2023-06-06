@@ -16,7 +16,6 @@ from typing import List
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-
 load_dotenv()
 
 # Initialize OpenAI
@@ -159,3 +158,7 @@ async def get_answer(question: question):
     return output
     """ except:
         raise HTTPException(status_code=500, detail="Error occured") """
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("bot:app", host='0.0.0.0', port=8000)
